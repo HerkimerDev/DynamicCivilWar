@@ -47,7 +47,7 @@ compo_captured =  call (compileFinal preprocessFileLineNumbers "DCW\composition\
 compo_startup =  call (compileFinal preprocessFileLineNumbers "DCW\composition\startup-composition.sqf");
 compos_turrets=  call (compileFinal preprocessFileLineNumbers "DCW\composition\compound\turrets.sqf");
 compos_objects =  call (compileFinal preprocessFileLineNumbers "DCW\composition\compound\objects.sqf");
-compos_medical =  call (compileFinal preprocessFileLineNumbers "DCW\composition\compound\medical.sqf");
+//compos_medical =  call (compileFinal preprocessFileLineNumbers "DCW\composition\compound\medical.sqf");
 
 // Default configuration is called here
 [] call (compileFinal preprocessFileLineNumbers "DCW\config\config-default.sqf"); 
